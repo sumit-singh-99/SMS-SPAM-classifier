@@ -10,6 +10,7 @@ ps = PorterStemmer()
 
 # Download necessary NLTK data
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 def transform_text(text):
